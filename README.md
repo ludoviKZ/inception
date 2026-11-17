@@ -101,5 +101,10 @@ Docker data; use it only when you intentionally want to delete persistent data.
 * [WordPress installation documentation](https://developer.wordpress.org/advanced-administration/before-install/howto-install/)
 
 The implementation and documentation were written and reviewed as part of the
-exercise. No AI-generated section is required for understanding or operating the
-stack.
+exercise.
+
+### AI usage
+
+AI tools were used for studying on the core concepts before starting work on the project, to double-check compliance with subject and to help write the README.md file.
+All other project files, configuration, commands, and implementation decisions were written, reviewed
+and tested by me.

@@ -1,3 +1,4 @@
+*This project has been created as part of the 42 curriculum by ludoviKZ.*
 # User documentation
 
 ## What is provided?

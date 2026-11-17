@@ -2,7 +2,7 @@
 set -eu
 
 if [ ! -f /var/www/html/wp-load.php ]; then
-    curl -fsSL https://wordpress.org/latest.tar.gz | tar -xz --strip-components=1 -C /var/www/html
+    curl -fsSL "https://wordpress.org/wordpress-${WP_VERSION}.tar.gz" | tar -xz --strip-components=1 -C /var/www/html
 fi
 
 db_password=$(cat /run/secrets/db_password)
